@@ -1,0 +1,28 @@
+.main {
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: beige;
+}
+
+.text {
+    font-size: 20;
+    font-style: inherit;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    margin-left: 60px;
+    border-radius:6;
+}
+.inline-text {
+    padding-top: 5px;
+    padding-left: 60px;
+}
+
+img {
+    width: 70px;
+    height:70px;
+}
