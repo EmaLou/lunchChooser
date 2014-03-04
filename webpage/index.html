@@ -1,21 +1,188 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link media="screen,projection" type="text/css" href="css/main.css" rel="stylesheet"/>
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="js/chooser.js"></script>
-</head>
-<body>
-<div class="main">
-    <div class="inline-text">
-        <p class="text">Don't know what to have for lunch?</br>
-            Don't worries! </br>
-            Click the button to choose lunch~ <img src="img/smile.gif">
-        </p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/title_icon.jpg">
+
+    <title>Lunch Chooser</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Lunch Chooser</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
 
-    <button class="button">Click Me!</button>
-</div>
-</body>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:Lunch" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>About lunch?</h1>
+              <p>Do you confuse about what to eat every day?</p>
+              <p>How about let gad choose it for you?</p>
+
+              <p><a class="btn btn-lg btn-primary button" href="#" role="button">Let's Choose</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Why" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Why are you still here.</h1>
+              <p>We both know you can't make the choice by yourself.</p>
+              <p><a class="btn btn-lg btn-primary button" href="#" role="button">Let's Choose !</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Just Click the button" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Don't hesitate anymore.</h1>
+              <p>Come on, let our website help you.</p>
+              <p><a class="btn btn-lg btn-primary button" href="#" role="button">Let's Choose !</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+
+    <div class="container marketing">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle pic-size" src="img/index.jpg" alt="Generic placeholder image">
+          <h2>1F Restaurant</h2>
+          <p>Believe me, you don't want it.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle pic-size" src="img/lvdi.jpg" alt="Generic placeholder image">
+          <h2>Green Land</h2>
+          <p>The best place for lunch.</p>
+          <p><a class="btn btn-default" href="#" role="button">Hope gad can help to go there.</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle pic-size" src="img/dicos.jpg" alt="Generic placeholder image">
+          <h2>Takeaway</h2>
+          <p>Dicos, KFC, PizzaHot, etc.</p>
+          <p><a class="btn btn-default" href="#" role="button">The best food to takeaway is subway.</a></p>
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Little Yellow Chicken <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Louis's and Jun's favorite.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/huangmenji.jpg" alt="Little Yellow Chicken">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/guanzhongke.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">How about guanzhongke noodles. <span class="text-muted">Eat for yourself.</span></h2>
+          <p class="lead">Normal lunch for normal people. </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly,cold noodles. <span class="text-muted">Chinese humbuger is better.</span></h2>
+          <p class="lead">Girls favorite.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/liangpi.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 TW,TDI team,Ema_Lou. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <script src="js/chooser.js"></script>
+  </body>
 </html>
