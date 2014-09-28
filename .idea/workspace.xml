@@ -44,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="0.32911393" vertical-offset="0" max-vertical-offset="3384">
+            <state line="15" column="21" selection-start="521" selection-end="521" vertical-scroll-proportion="0.2278481" vertical-offset="108" max-vertical-offset="3438">
               <folding />
             </state>
           </provider>
@@ -142,6 +142,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +239,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,8 +248,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -263,14 +263,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -279,6 +271,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -438,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="0.32911393" vertical-offset="0" max-vertical-offset="3384">
+        <state line="15" column="21" selection-start="521" selection-end="521" vertical-scroll-proportion="0.2278481" vertical-offset="108" max-vertical-offset="3438">
           <folding />
         </state>
       </provider>
